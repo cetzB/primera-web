@@ -1,0 +1,71 @@
+:root {
+    --color1: #04add6;
+    --color2: #0a222d;
+    --color3: #1c5f81;
+    --color4: #027996;
+    --color5: #027996;
+    --text: #f8fdff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--text);
+}
+
+header{
+    background-color: var(--color2)
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0;
+}
+
+img{
+    width: 35px;
+    height: 35px;
+    margin: auto 6px;
+}
+
+img:hover{
+    opacity: .4;
+}
+
+ul{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+}
+
+a{
+    margin: 0 10px;
+    color: var(--text); 
+    font-size: .9rem;
+    text-decoration: none;
+    font-family: roboto;
+}
+
+a:hover{
+    color: var(--color5);
+    border-bottom: 1px var(--color5) solid;
+}
+
+.registrate{
+    padding: 9px 18px;
+    margin: 0 26px;
+    border-radius: 4px;
+    background-color: var(--color1);
+    font-size: .95rem;
+}
+
+.registrate:hover{
+    color: var(--text);
+    background-color: var(--color4);
+}
